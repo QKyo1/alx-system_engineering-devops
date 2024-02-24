@@ -4,13 +4,16 @@ i=0
 while [ $i -lt 20]; do
 case $i in
 3)
-echo "$i and then bad luck from China"
+echo $i
+echo "bad luck from China"
 ;;
 8)
-echo "$i and then bad luck from Japan"
+echo $i
+echo "bad luck from Japan"
 ;;
 16)
-echo "$i and then bad luck from Italy"
+echo $i
+"bad luck from Italy"
 ;;
 *)
 echo $i;;
