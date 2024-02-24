@@ -6,6 +6,6 @@ if  [ $i -eq 8 ]; then
 echo -e "Best School\nHi"
 else
 echo  "Best school"
-fi
 ((i++))
+fi
 done
