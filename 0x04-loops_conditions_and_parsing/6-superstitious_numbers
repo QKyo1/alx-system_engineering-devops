@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Write a Bash script that displays numbers from 1 to 20
 i=0
-while [ $i -lt 20]; do
+while [ $i -le 20]; do
 case $i in
 3)
 echo $i
