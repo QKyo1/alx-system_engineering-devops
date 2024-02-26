@@ -1,1 +1,12 @@
 #!/usr/bin/env bash
+# a script to dispaly time
+x=0
+while ((x <=12)); do
+echo  "Hour: $x"
+y=0
+while((y <= 59)); do
+echo "$y"
+((y++))
+done
+((x++))
+done
