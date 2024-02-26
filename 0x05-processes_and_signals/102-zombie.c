@@ -30,15 +30,15 @@ int main(void)
 	while (x < 5)
 	{
 		pid = fork();
-if (pid > 0)
-{
-printf("Zombie process created, PID:%d/n ZOMBIE_PID", pid);
-sleep(1);
-x++;
-}
-else
-exit(0);
-}
-infinite_while();
-return (EXIT_SUCCESS);
-};
+		if (pid > 0)
+		{
+			printf("Zombie process created, PID:%d\n ZOMBIE_PID", pid);
+			sleep(1);
+			x++;
+			}
+			else
+			exit(0);
+			}
+			infinite_while();
+			return (EXIT_SUCCESS);
+			}
