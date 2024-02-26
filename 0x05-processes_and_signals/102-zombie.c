@@ -32,7 +32,7 @@ int main(void)
 		pid = fork();
 if (pid > 0)
 {
-printf("Zombie process created, PID: %d ZOMBIE_PID", pid);
+printf("Zombie process created, PID:%d/n ZOMBIE_PID", pid);
 sleep(1);
 x++;
 }
