@@ -1,1 +1,9 @@
 #!/usr/bin/env bash
+# displays files
+files=(*)
+for x in "${files[@]}"; do
+    filename="${x#*-}" 
+    if [ -f "$x" ]; then
+        echo "$filename"
+    fi
+done
